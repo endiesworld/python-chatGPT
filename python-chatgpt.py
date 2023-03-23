@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 # load variables from .env file
 load_dotenv()
 
+# I am using the completions API
 url = "https://api.openai.com/v1/completions"
 api_key = os.getenv("OPENAI_API_KEY")
 
