@@ -15,9 +15,11 @@ headers = {
     "Authorization": "Bearer {}".format(api_key)
     }
 
+# You can change test in prompt to any thing you wish to ask GPT
+# The next version will make use or python argparse package to process user input.
 data = {
     "model": "text-davinci-003",
-    "prompt":"Write a pytest test for post request for fastAPI", # You can change test in prompt to any thing you wish to ask GPT
+    "prompt":"Write a pytest test for post request for fastAPI", 
     "max_tokens": 2000,
     "temperature": 0.3
 }
