@@ -17,7 +17,7 @@ headers = {
 
 data = {
     "model": "text-davinci-003",
-    "prompt":"Write a pytest test for post request for fastAPI",
+    "prompt":"Write a pytest test for post request for fastAPI", # You can change test in prompt to any thing you wish to ask GPT
     "max_tokens": 2000,
     "temperature": 0.3
 }
